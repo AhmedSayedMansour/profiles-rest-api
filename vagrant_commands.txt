@@ -1,0 +1,17 @@
+vagrant init ubuntu/bionic64
+vagrant up
+vagrant ssh
+----------->exit
+----------->ls
+----------->python dir/filename.py
+----------->python -m venv ~/env
+----------->source ~/env/bin/activate
+----------------->pip install -r requirements.txt
+----------------->deactivate
+----------------->django-admin.py startproject profiles_project .
+##django-admin.py startproject [project_name] [directory]
+----------------->python manage.py startapp profiles_api
+##python manage.py startapp [app_name]
+----------------->python manage.py startapp profiles_api
+----------------->python manage.py runserver 0.0.0.0:8000
+##http://127.0.0.1:8000/
