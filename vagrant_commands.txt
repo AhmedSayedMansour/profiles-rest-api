@@ -1,6 +1,7 @@
 vagrant init ubuntu/bionic64
 vagrant up
 vagrant ssh
+----------->cd /vagrant
 ----------->exit
 ----------->ls
 ----------->python dir/filename.py
@@ -19,3 +20,5 @@ vagrant ssh
 ----------------->python manage.py makemigrations profiles_api
 ##python manage.py makemigrations [app_name]
 -----------------> python manage.py migrate
+-----------------> python manage.py createsuperuser
+##Mansour ad12345ad
